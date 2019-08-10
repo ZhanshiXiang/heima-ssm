@@ -1,0 +1,6 @@
+com\yunhe\ssm\service\impl\ProductServiceImpl.class
+com\yunhe\ssm\service\IUserService.class
+com\yunhe\ssm\service\impl\UserServiceImpl.class
+com\yunhe\ssm\service\IOrdersService.class
+com\yunhe\ssm\service\impl\OrdersServiceImpl.class
+com\yunhe\ssm\service\IProductService.class

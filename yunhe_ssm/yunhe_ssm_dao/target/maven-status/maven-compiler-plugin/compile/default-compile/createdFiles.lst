@@ -1,0 +1,7 @@
+com\yunhe\ssm\dao\IProductDao.class
+com\yunhe\ssm\dao\IOrdersDao.class
+com\yunhe\ssm\dao\IPermissionDao.class
+com\yunhe\ssm\dao\IRoleDao.class
+com\yunhe\ssm\dao\IUserDao.class
+com\yunhe\ssm\dao\IMemberDao.class
+com\yunhe\ssm\dao\ITravellerDao.class

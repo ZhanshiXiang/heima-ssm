@@ -1,0 +1,7 @@
+com\yunhe\ssm\domain\Product.class
+com\yunhe\ssm\domain\Member.class
+com\yunhe\ssm\domain\Orders.class
+com\yunhe\ssm\domain\Permission.class
+com\yunhe\ssm\domain\Traveller.class
+com\yunhe\ssm\domain\Role.class
+com\yunhe\ssm\domain\UserInfo.class
