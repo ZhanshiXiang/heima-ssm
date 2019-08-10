@@ -9,6 +9,16 @@ import java.util.List;
  * @create 2019-08-10 16:33
  */
 public interface IRoleService {
-
+    /**
+     * 查询所有角色
+     * @return
+     * @throws Exception
+     */
     List<Role> findAll() throws  Exception;
+
+    /**
+     * 添加角色信息
+     * @param role
+     */
+    void save(Role role) throws Exception;
 }

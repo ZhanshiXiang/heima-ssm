@@ -30,4 +30,16 @@ public class RoleController {
         return mv;
 
     }
+
+    /**
+     * 角色添加
+     * @param role
+     * @return
+     */
+    @RequestMapping("/save.do")
+    public String save(Role role) throws Exception {
+        roleService.save(role);
+        return "redirect:findAll.do";
+    }
+
 }
