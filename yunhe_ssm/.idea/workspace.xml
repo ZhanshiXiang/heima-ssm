@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ee74ba8-b7d8-408d-85c8-9de99c6e8a5d" name="Default Changelist" comment="添加web模块，webapp模块 plugins模块">
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/artifacts/springSecurityTest_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/artifacts/springSecurityTest_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_test_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_tx_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/springSecurityTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/webapp/failer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springSecurityTest/src/main/webapp/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunhe_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunhe_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunhe_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yunhe_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+    <list default="true" id="9ee74ba8-b7d8-408d-85c8-9de99c6e8a5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/com.yunhe.dao/target/" />
@@ -147,8 +112,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
-    <option name="y" value="-3" />
-    <option name="width" value="1377" />
+    <option name="y" value="-4" />
+    <option name="width" value="1378" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -176,7 +141,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565416083001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565422137736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -249,8 +214,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.yunhe-ssm-web" />
       <item itemvalue="Application.BCryptPasswordEncoderUtisl" />
+      <item itemvalue="Maven.yunhe-ssm-web" />
     </list>
     <recent_temporary>
       <list>
@@ -268,7 +233,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565254961408</updated>
-      <workItem from="1565254963134" duration="38769000" />
+      <workItem from="1565254963134" duration="39754000" />
     </task>
     <task id="LOCAL-00001" summary="添加主模块">
       <created>1565408635076</created>
@@ -414,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38769000" />
+    <option name="totallyTimeSpent" value="39754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,13 +405,13 @@
       <window_info anchor="bottom" id="Spring" order="1" sideWeight="0.7714477" weight="0.18811882" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3493635" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.82707775" weight="0.21671388" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.82707775" weight="0.34419262" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.25318247" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.48300284" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.39518413" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.17292225" side_tool="true" weight="0.36350778" />
@@ -457,7 +422,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.113270774" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.113270774" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>

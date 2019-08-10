@@ -3,3 +3,14 @@
 0:0:0:0:0:0:0:1 - - [10/Aug/2019:11:15:22 +0800] "GET /yunhe_ssm_web/user/findAll.do HTTP/1.1" 200 16242 http-bio-8888-exec-4 270
 0:0:0:0:0:0:0:1 - - [10/Aug/2019:11:15:24 +0800] "GET /yunhe_ssm_web/user/findByIdUser.do?id=000001 HTTP/1.1" 200 14694 http-bio-8888-exec-6 153
 0:0:0:0:0:0:0:1 - - [10/Aug/2019:11:37:25 +0800] "GET /yunhe_ssm_web/user/findByIdUser.do?id=000001 HTTP/1.1" 200 14706 http-bio-8888-exec-9 194
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:11 +0800] "GET /yunhe_ssm_web/user/findByIdUser.do?id=000001 HTTP/1.1" 302 - http-bio-8888-exec-2 77
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:12 +0800] "GET /yunhe_ssm_web/login.jsp HTTP/1.1" 200 2633 http-bio-8888-exec-3 640
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:19 +0800] "POST /yunhe_ssm_web/login.do HTTP/1.1" 200 13230 http-bio-8888-exec-4 743
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:23 +0800] "GET /yunhe_ssm_web/product/findAll.do HTTP/1.1" 200 22187 http-bio-8888-exec-5 462
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:51 +0800] "GET /yunhe_ssm_web/orders/findAll.do?page=1&size=4 HTTP/1.1" 200 22524 http-bio-8888-exec-7 382
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:17:54 +0800] "GET /yunhe_ssm_web/orders/findById.do?id=0E7231DC797C486290E8713CA3C6ECCC HTTP/1.1" 200 16715 http-bio-8888-exec-9 182
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:18:05 +0800] "GET /yunhe_ssm_web/product/findAll.do HTTP/1.1" 200 22187 http-bio-8888-exec-10 22
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:18:18 +0800] "GET /yunhe_ssm_web/user/findAll.do HTTP/1.1" 200 16242 http-bio-8888-exec-10 20
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:18:26 +0800] "GET /yunhe_ssm_web/user/findByIdUser.do?id=70101EE5CC044ABCB0C3ACF5F3640C68 HTTP/1.1" 200 13892 http-bio-8888-exec-10 32
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:18:32 +0800] "GET /yunhe_ssm_web/user/findAll.do HTTP/1.1" 200 16242 http-bio-8888-exec-10 12
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:14:18:34 +0800] "GET /yunhe_ssm_web/user/findByIdUser.do?id=000001 HTTP/1.1" 200 14706 http-bio-8888-exec-10 23
