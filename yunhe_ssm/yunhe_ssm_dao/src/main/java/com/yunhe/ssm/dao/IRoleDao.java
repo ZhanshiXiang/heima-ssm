@@ -30,4 +30,13 @@ public interface IRoleDao {
 
         })
     List<Role> findRoleByUserId(String userId) throws Exception;
+
+
+    /**
+     * 查询所有的角色
+     * @return
+     */
+    @Select("select * from role")
+    List<Role> findAll();
+
 }

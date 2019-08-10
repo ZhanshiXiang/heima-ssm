@@ -18,7 +18,7 @@ import java.util.List;
 public class UserController {
 
      @Autowired
-    IUserService userService;
+   private IUserService userService;
 
     /**
      * 查询所有的用户
