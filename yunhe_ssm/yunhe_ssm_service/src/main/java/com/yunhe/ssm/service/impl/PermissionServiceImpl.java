@@ -20,12 +20,22 @@ public class PermissionServiceImpl implements IPermissionService {
     private IPermissionDao permissionDao;
 
 
+    /**
+     * 查询所有权限
+     * @return
+     * @throws Exception
+     */
     @Override
     public List<Permission> findAll() throws Exception {
 
         return  permissionDao.findAll();
     }
 
+    /**
+     * 添加权限
+     * @param permission
+     * @throws Exception
+     */
     @Override
     public void save(Permission permission) throws Exception {
 
