@@ -4,6 +4,7 @@ import com.yunhe.ssm.domain.Role;
 import com.yunhe.ssm.domain.UserInfo;
 import com.yunhe.ssm.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,6 +28,9 @@ public class UserController {
      * 查询所有的用户
      * @return
      */
+
+
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @RequestMapping("/findAll.do")
     public ModelAndView  findAll() throws Exception {
         ModelAndView mv=new ModelAndView();
@@ -43,6 +47,7 @@ public class UserController {
      * @throws Exception
      */
     @RequestMapping("/save.do")
+    @PreAuthorize("authentication.principal.username=='James'")
     public String  saveUser(UserInfo userInfo) throws Exception{
 
         userService.save(userInfo);

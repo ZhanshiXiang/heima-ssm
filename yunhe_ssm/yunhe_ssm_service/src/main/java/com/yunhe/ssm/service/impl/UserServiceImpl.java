@@ -37,8 +37,9 @@ public class UserServiceImpl implements IUserService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         //处理自己的用户对象封装成UserDetails    {noop}:是对密码进行加密
-        //  User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),getAuthority(userInfo.getRoles()));
+        // User user=new User(userInfo.getUsername(),"{noop}"+userInfo.getPassword(),getAuthority(userInfo.getRoles()));
         //userInfo.getStatus() == 0 ? false : true  用户开启用户和关闭用户
         User user = new User(userInfo.getUsername(),  userInfo.getPassword(), userInfo.getStatus() == 0 ? false : true, true, true, true, getAuthority(userInfo.getRoles()));
         return user;
