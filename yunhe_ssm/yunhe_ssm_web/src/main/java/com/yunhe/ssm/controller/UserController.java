@@ -47,6 +47,10 @@ public class UserController {
      * @throws Exception
      */
     @RequestMapping("/save.do")
+    //支持表达式的权限控制
+    /**
+     *  判断当前用户
+     */
     @PreAuthorize("authentication.principal.username=='James'")
     public String  saveUser(UserInfo userInfo) throws Exception{
 

@@ -20,6 +20,21 @@ public class SysLog {
     private Long executionTime;
     private String method;
 
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public String getId() {
         return id;
@@ -45,13 +60,6 @@ public class SysLog {
         this.visitTimeStr = visitTimeStr;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 
     public String getIp() {
         return ip;
@@ -59,14 +67,6 @@ public class SysLog {
 
     public void setIp(String ip) {
         this.ip = ip;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 
     public Long getExecutionTime() {
