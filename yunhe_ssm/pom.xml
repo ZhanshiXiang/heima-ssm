@@ -164,7 +164,7 @@
             <artifactId>ojdbc14</artifactId>
            <version>${oracle.version}</version>
         </dependency>
-
+        <!--权限控制-->
         <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>jsr250-api</artifactId>

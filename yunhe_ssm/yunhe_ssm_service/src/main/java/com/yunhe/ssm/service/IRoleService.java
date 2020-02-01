@@ -1,5 +1,6 @@
 package com.yunhe.ssm.service;
 
+import com.yunhe.ssm.domain.Permission;
 import com.yunhe.ssm.domain.Role;
 
 import java.util.List;
@@ -21,4 +22,10 @@ public interface IRoleService {
      * @param role
      */
     void save(Role role) throws Exception;
+
+    Role findById(String roleId) throws Exception;
+
+    List<Permission> findOtherPermissions(String roleId);
+
+    void addPermissionToRole(String roleId, String[] permissionIds);
 }

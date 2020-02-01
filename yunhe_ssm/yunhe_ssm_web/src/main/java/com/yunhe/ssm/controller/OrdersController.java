@@ -4,6 +4,7 @@ import com.github.pagehelper.PageInfo;
 import com.yunhe.ssm.domain.Orders;
 import com.yunhe.ssm.service.IOrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -28,8 +29,9 @@ public class OrdersController {
 //        return mv;
 //    }
 
+    @Secured("ROLE_ADMIN")
     @RequestMapping("/findAll.do")
-    public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1") int page, @RequestParam(name = "size", required = true, defaultValue = "4") int size) throws Exception {
+    public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1") Integer page, @RequestParam(name = "size", required = true, defaultValue = "4") Integer size) throws Exception {
         ModelAndView mv = new ModelAndView();
         List<Orders> ordersList = ordersService.findAll(page, size);
         //PageInfo就是一个分页Bean

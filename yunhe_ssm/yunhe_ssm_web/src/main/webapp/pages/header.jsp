@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <!-- 页面头部 -->
 <header class="main-header">
 	<!-- Logo -->
@@ -9,6 +10,7 @@
 		<span class="logo-lg"><b>数据</b>后台管理</span>
 	</a>
 	<!-- Header Navbar: style can be found in header.less -->
+	
 	<nav class="navbar navbar-static-top">
 		<!-- Sidebar toggle button-->
 		<a href="#" class="sidebar-toggle" data-toggle="offcanvas"
@@ -23,7 +25,7 @@
 						src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
 						class="user-image" alt="User Image"> <span class="hidden-xs">
 
-								xxx
+					    <security:authentication property="principal.username"></security:authentication>
 					</span>
 
 				</a>
